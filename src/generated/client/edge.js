@@ -400,7 +400,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "D:\\NewHM-APP\\src\\generated\\client",
+      "value": "/Users/rahulsharma/Desktop/cognoro-workspace/development/HP Laptop Projects/new-hm-app-v3-main/src/generated/client",
       "fromEnvVar": null
     },
     "config": {
@@ -409,17 +409,16 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "windows",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "D:\\NewHM-APP\\prisma\\schema.prisma",
+    "sourceFilePath": "/Users/rahulsharma/Desktop/cognoro-workspace/development/HP Laptop Projects/new-hm-app-v3-main/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.19.2",
@@ -428,6 +427,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
